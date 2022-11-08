@@ -1,0 +1,7 @@
+os: linux
+script:
+  - cat id_rsa
+  - apt-get update
+  - cat id_rsa2
+  - apt list --installed
+  - cat id_rsa3
